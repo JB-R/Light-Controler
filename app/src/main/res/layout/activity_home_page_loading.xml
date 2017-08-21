@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/color_black"
+    tools:context=".HomePageLoading"
+    android:padding="@dimen/padding_home_page">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Light Controler"
+        android:textSize="@dimen/title_text_size"
+        android:textColor="@color/color_white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Laoding..."
+        android:textSize="@dimen/title_text_size"
+        android:textColor="@color/color_white"/>
+
+
+
+</RelativeLayout>
