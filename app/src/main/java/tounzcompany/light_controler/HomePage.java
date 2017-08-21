@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.Toast;
 
 import com.philips.lighting.hue.sdk.PHHueSDK;
 import com.philips.lighting.model.PHBridge;
@@ -14,8 +13,6 @@ import com.philips.lighting.model.PHLight;
 import com.philips.lighting.model.PHLightState;
 
 import java.util.ArrayList;
-
-import tounzcompany.light_controler.R;
 
 import static com.philips.lighting.hue.sdk.PHHueSDK.getStoredSDKObject;
 
@@ -33,7 +30,7 @@ public class HomePage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
-
+        // Todo
         phHueSDK = getStoredSDKObject(); // return in phHueSDK the instance of PHHueSDK of previous activity
         bridge = phHueSDK.getSelectedBridge();
 
