@@ -34,6 +34,7 @@ public class HomePage extends AppCompatActivity {
         phHueSDK = getStoredSDKObject(); // return in phHueSDK the instance of PHHueSDK of previous activity
         bridge = phHueSDK.getSelectedBridge();
 
+
         cacheUpdate();
 
         displayAllLights();
@@ -67,7 +68,6 @@ public class HomePage extends AppCompatActivity {
         bridge.updateLightState(phLight,phLightState);
         cacheUpdate();
     }
-
     void cacheUpdate(){
         cache = bridge.getResourceCache();
         allLights = new ArrayList<>(cache.getAllLights());
