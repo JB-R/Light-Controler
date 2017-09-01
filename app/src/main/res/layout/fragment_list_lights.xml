@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="Lamp1"
-        android:textColor="@color/color_white"
+        android:textColor="@color/color_light_grey"
         android:textSize="@dimen/text_icon_lights_size" />
 
 
