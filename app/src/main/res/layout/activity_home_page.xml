@@ -14,18 +14,12 @@
         android:id="@+id/grid_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/fragment_bottom_bar_layout"
         android:layout_below="@id/fragment_top_bar_layout"
         android:layout_centerInParent="true"
         android:horizontalSpacing="@dimen/padding_element_grid"
         android:numColumns="auto_fit"
         android:paddingTop="20dp"
         android:verticalSpacing="@dimen/padding_element_grid" />
-
-    <include
-
-        android:id="@+id/fragment_bottom_bar_layout"
-        layout="@layout/fragment_bottom_bar" />
 
 
 </RelativeLayout>
